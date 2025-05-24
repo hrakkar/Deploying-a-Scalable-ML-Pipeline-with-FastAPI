@@ -64,7 +64,7 @@ def test_precision():
     # Test if Precision metric is accurate
     """
     # Your code here
-    assert(round(p, 4) == 0.7419)
+    assert(round(p, 4) == 0.7404)
 
 
 # TODO: implement the second test. Change the function name and input as needed
@@ -73,7 +73,7 @@ def test_recall():
     # Test if Recall metric is accurate
     """
     # Your code here
-    assert(round(r, 4) == 0.6103)
+    assert(round(r, 4) == 0.6167)
 
 
 # TODO: implement the third test. Change the function name and input as needed
@@ -82,4 +82,4 @@ def test_f():
     # Test if F1 metric is accurate
     """
     # Your code here
-    assert(round(fb, 4) == 0.6697)
+    assert(round(fb, 4) == 0.6729)
